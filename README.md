@@ -1,12 +1,31 @@
 # 웨어러블 디바이스 3D 시각화
 
-개발 환경: Unity
+개발 환경: Unity, python3, flask
+
+## 개발환경 설치
+ - flask 웹 프레임워크 사용
+ 
+```
+pip install flask
+```
 
 ## 실행
 
+로컬 테스트: web/app.py 파일 실행하고, 웹브라우져에서 http://127.0.0.1:5053 접속
+
 ```
 python3 web/app.py
+
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5053
 ```
+
+## 웨어러블 디바이스 3D 시각화 서비스 주소
+
+https://wde.baribarilab.com/visualization/
 
 ## 인터페이스
 
