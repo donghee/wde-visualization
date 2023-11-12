@@ -1,11 +1,11 @@
 from flask import Flask, render_template
-import random
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    subject = 'visualization'
+    return render_template('index.html', subject=subject)
 
 @app.after_request
 def after_request(response):
